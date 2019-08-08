@@ -1,0 +1,72 @@
+body{
+    background: linear-gradient(to right, #ff9933 0%, #ff3300 100%);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color:#f0f0f0;
+    margin:4em 0;
+}
+p{
+    margin:0;
+}
+.temperature{
+    font-size:4.1em;
+    font-weight:700;
+    display:inline-block;
+    margin:10px 0;
+    padding:0;
+
+}
+.apparenttemp{
+    margin:15px 0;
+    margin-top:0;
+    font-size:2.3em;
+    font-weight:700;
+    display:inline-block;
+}
+.timezone{
+    font-size:1.7em;
+    font-weight:900;
+    margin:15px 0;
+}
+.cel{
+    font-size:2.5em;
+    font-weight:700;
+    display:inline-block;
+}
+.o{
+    font-size:.6em;
+}
+.cel2{
+    font-size:1.3em;
+    font-weight:700;
+    display:inline-block;
+}
+.o2{
+    font-size:.6em;
+}
+.windspeed,.humidity,.pressure{
+    display:inline-block;
+    font-size:1.9em;
+    font-weight:700;
+    margin:15px 0;
+    margin-top:0;
+}
+.summary{
+    font-size:2.0em;
+    margin:0;
+}
+.uvindex,.visibility{
+    display:inline-block;
+    font-size:1.9em;
+    font-weight:700;
+    margin-top:9px;
+}
+.span{
+    font-size:1.5em;
+    font-weight:700;
+}
+@media only screen and (max-width: 600px){
+    p{
+        display:block;
+    }
+}
